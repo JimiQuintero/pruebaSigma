@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contenido {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #737172;
+}
+
+
+/* .img {
+    border: solid 1px red;
+}
+
+.form {
+    border: solid 1px blue;
+} */
+
+.imagen {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.card-body {
+    margin-left: 10px;
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    -webkit-box-shadow: -1px -2px 7px -2px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: -1px -2px 7px -2px rgba(0, 0, 0, 0.52);
+    box-shadow: -1px -2px 7px -2px rgba(0, 0, 0, 0.52);
+}
+
+.btnEnviar {
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #e03b65;
+    color: #ffffff;
+    border-color: #e03b65;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.control-label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.form-control {
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+/* ======= RESPONSIVE ========== */
+
+
+/* Tamaño extra small */
+
+@media screen and (max-width: 575.5px) {
+    .imagen {
+        width: 70%;
+    }
+    .card-body {
+        margin-left: 15px;
+    }
+    .btnEnviar {
+        margin-left: 50px;
+    }
+}
+
+
+/* Tamaño small */
+
+@media screen and (min-width: 576px) and (max-width: 767.5px) {
+    .title {
+        font-size: 30px;
+    }
+    .imagen {
+        width: 60%;
+    }
+    .card-body {
+        margin-left: 26px;
+    }
+}
+
+
+/* Tamaño MEDIUM */
+
+@media screen and (min-width: 768px) and (max-width: 991.5px) {
+    .imagen {
+        width: 70%;
+    }
+}
+
+
+/* Tamaño LARGE */
+
+@media screen and (min-width: 992px) and (max-width: 1199.5px) {
+    .card-body {
+        width: 450px;
+    }
+    .imagen {
+        width: 100%;
+    }
+}
